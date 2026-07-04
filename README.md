@@ -17,6 +17,8 @@ Urban Agent is a modern, security-first multi-agent system designed to act as th
     *   **Tool Execution Constraints:** The `ToolGuard` middleware wraps tool execution, enforcing strict timeouts (5s), retry-limit circuit breakers, and agency-specific tool allowlists.
 *   **JIT UI Hydration:** Sub-agents return strict JSON payloads, allowing modern frontends to seamlessly hydrate cached UI templates without parsing raw conversational text.
 
+*   **PLEASE NOTE: THE A2UI/JIT FEATURES ARE STILL IN PROGRESS: WILL BE INCLUDED LATER AS I DEBUG**
+
 ## 📁 Repository Structure
 
 *   `app/agent.py`: The core orchestrator, security hooks, and routing logic.
